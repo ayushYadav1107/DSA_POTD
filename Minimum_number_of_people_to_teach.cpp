@@ -48,6 +48,6 @@ public:
             minUsersToTeach = min(minUsersToTeach, count);
         }
 
-        return minUsersToTeach;
+        return minUsersToTeach; 
     }
 };
