@@ -10,7 +10,7 @@
  * };
  */
 
- // dfs using inorder traversal
+ // dfs using preorder traversal
 class Solution {
 public:
     map<int,int> mpp;
