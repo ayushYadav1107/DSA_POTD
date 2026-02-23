@@ -13,7 +13,7 @@ public:
             i++;
         }
         int maxDistance = INT_MIN;
-        for(int i = firstBit; i < 32; i++){
+        for(int i = firstBit+1; i < 32; i++){
             if(b[i]==0){
                 continue;
             }else{
