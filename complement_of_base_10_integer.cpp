@@ -13,3 +13,14 @@ public:
         return result;
     }
 };
+
+class Solution {
+public:
+    int bitwiseComplement(int n) {
+        int mask = 1;
+        while(mask < n){
+            mask = (mask << 1) | 1;
+        }
+        return n ^ mask; // 1 xor 1 = 0 and 0 xor 1 = 1
+    }
+};
